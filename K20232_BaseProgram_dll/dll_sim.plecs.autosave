@@ -54,7 +54,7 @@ Plecs {
   ScriptsDialogSplitterPos "0"
   Schematic {
     Location      [0, 27; 1920, 993]
-    ZoomFactor    2.57013
+    ZoomFactor    2.2459
     SliderPosition [0, 0]
     ShowBrowser   off
     BrowserWidth  100
@@ -706,10 +706,40 @@ Plecs {
       Type          Clock
       Name          "Clock"
       Show          off
-      Position      [220, 325]
+      Position      [95, 230]
       Direction     right
       Flipped       off
       LabelPosition south
+    }
+    Component {
+      Type          Dll
+      Name          "DLL"
+      Show          on
+      Position      [285, 325]
+      Direction     right
+      Flipped       off
+      LabelPosition south
+      Parameter {
+        Variable      "Filename"
+        Value         "Debug\\libK20232_BaseProgram_dll"
+        Show          off
+        Evaluate      off
+      }
+      Parameter {
+        Variable      "SampleTime"
+        Value         "0"
+        Show          off
+      }
+      Parameter {
+        Variable      "OutputDelay"
+        Value         "0"
+        Show          off
+      }
+      Parameter {
+        Variable      "Parameters"
+        Value         "[]"
+        Show          off
+      }
     }
     Connection {
       Type          Wire
@@ -887,4 +917,4 @@ Plecs {
     } 
   }
 }
-DemoSignature "P3X55virx4T4KTwXP5cIwUEX4BnHT4bwOYhZZ4C4Ur8="
+DemoSignature "NKMfLaAEbYRoUJh3FWBaaDTXJMFN922gZbkUgXJgzvE="

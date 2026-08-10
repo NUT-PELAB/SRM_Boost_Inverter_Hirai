@@ -21,16 +21,9 @@
 
 void fi1msInt(){
 
-    iock();
-	sequence();
-    thermistor();
-
 }
 
 void fi1msIntInit(){
 
-	iockInit();
-	sequenceInit();
-	thermistorInit();
 }
 
