@@ -1,0 +1,71 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+
+# include setting command files @NPEohnuma
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Fpga files
+/K20232_FPGACode/*
+!/K20232_FPGACode/K20232_FPGACode.xpr
+!/K20232_FPGACode/K20232_FPGACode.srcs/
+!/K20232_FPGACode/K20232_FPGACode.runs/
+
+/K20232_FPGACode/K20232_FPGACode.runs/*
+!/K20232_FPGACode/K20232_FPGACode.runs/impl_1/
+
+/K20232_FPGACode/K20232_FPGACode.runs/impl_1/*
+!/K20232_FPGACode/K20232_FPGACode.runs/impl_1/*.bit
+!/K20232_FPGACode/K20232_FPGACode.runs/impl_1/*.mcs
+*.lock
+
+
+
+
