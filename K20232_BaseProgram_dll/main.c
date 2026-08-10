@@ -33,6 +33,7 @@ DLLEXPORT void plecsStart(struct SimulationState* aState)
 //output is written to DLL output port after the output delay
 DLLEXPORT void plecsOutput(struct SimulationState* aState)
 {	
+    // coment
 	i = i + ts * e;
 	y = kp * e + ki * i;
 }
